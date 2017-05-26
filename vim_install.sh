@@ -34,9 +34,9 @@ echo "Done."
 
 # gccインストール
 if [ type gcc > /dev/null 2>&1 ]; then
-	-   : # you can make. No Problem.
+	# you can make. No Problem.
 else
-	-   yum -y install gcc
+	yum -y install gcc
 fi
 
 if [ -e $VIMRC_PATH ]; then
