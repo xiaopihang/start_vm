@@ -40,8 +40,8 @@ else
 fi
 
 if [ -e $VIMRC_PATH ]; then
--   mv $VIMRC_PATH $VIMRC_BAK_PATH
--   echo "${VIMRC_PATH} changed to ${VIMRC_BAK_PATH}"
+	mv $VIMRC_PATH $VIMRC_BAK_PATH
+	echo "${VIMRC_PATH} changed to ${VIMRC_BAK_PATH}"
 fi
 
 # copy vimrc to your local
