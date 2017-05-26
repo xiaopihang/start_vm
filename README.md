@@ -1,1 +1,4 @@
 # start vm
+
+# vimrcインストール
+curl 
