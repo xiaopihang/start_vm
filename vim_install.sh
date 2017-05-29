@@ -32,13 +32,6 @@ fi
 
 echo "Done."
 
-# gccインストール
-if [ type gcc > /dev/null 2>&1 ]; then
-	# you can make. No Problem.
-else
-	yum -y install gcc
-fi
-
 if [ -e $VIMRC_PATH ]; then
 	mv $VIMRC_PATH $VIMRC_BAK_PATH
 	echo "${VIMRC_PATH} changed to ${VIMRC_BAK_PATH}"
